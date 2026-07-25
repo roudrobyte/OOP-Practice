@@ -19,10 +19,6 @@ I created this space to track my progress, organize my code, and build a solid f
 ## 📂 Repository Structure
 The codes are organized to keep things easy to find. Here is a general breakdown:
 
-* `01_Basics/`: Syntax, basic classes, and object instantiation.
-* `02_Inheritance/`: Single, multilevel, and hierarchical inheritance examples.
-* `03_Polymorphism/`: Method overloading and overriding.
-* `04_Abstraction/`: Abstract classes and interfaces.
 * `Projects/`: Mini-projects applying multiple OOP concepts together.
 
 ## How to Run
