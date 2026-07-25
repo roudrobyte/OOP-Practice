@@ -11,10 +11,7 @@ I created this space to track my progress, organize my code, and build a solid f
 - Abstraction
 
 ## 💻 Languages & Tools
-*(Update these as you progress through your courses)*
 - Java
-- C++ 
-- Python
 
 ## 📂 Repository Structure
 The codes are organized to keep things easy to find. Here is a general breakdown:
