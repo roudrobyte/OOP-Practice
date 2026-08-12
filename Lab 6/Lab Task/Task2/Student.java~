@@ -1,0 +1,44 @@
+public class Student{
+    public static int total_students;
+    public static double average;
+    public static total;
+    public String name;
+    public int id;
+    public int codingMark;
+    public int tracingMark;
+    public int totalMarks;
+    public Student(String nm){
+        name = nm;
+        total_students++;
+        id = total_students;
+    }
+    
+    public void setCodingMarks(int a){
+        codingMark = a;
+    }
+    
+    public void setTracingMarks(int b){
+        tracingMark = b;
+    }
+    
+    public void individualDetail(){
+        System.out.println("Name: "+name);
+        System.out.println("ID "+id);
+        System.out.println("Coding Marks: "+codingMark);
+        System.out.println("Tracing Mark: "+tracingMark);
+        totalMarks = tracingMark + codingMark;
+        total+=totalMarks;
+        if(totalMarks>50){
+            System.out.println(name+" has passed with "+totalMarks+" marks");
+        }
+        else{
+            System.out.println(name+" has failed with "+totalMarks+" marks");
+        }
+    }
+    
+    public static double averageMarks(){
+        average = total/total_students;
+        return average;
+    }
+}
+    
